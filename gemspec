@@ -4,7 +4,7 @@ SPEC = Gem::Specification.new do |s|
   s.name = `cat admin/library-name`.strip
 #  s.version = `darcs changes --tags= | awk '$1 == "tagged" { print $2 }' | head -n 1`.strip
   s.version = '2.1.8'
-  s.author = 'JanRain, Inc'
+  s.author = 'JanRain, Inc (Forked, Modified by Casey Li)'
   s.email = 'openid@janrain.com'
   s.homepage = 'http://github.com/openid/ruby-openid'
   s.platform = Gem::Platform::RUBY
